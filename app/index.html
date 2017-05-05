@@ -15,12 +15,26 @@
 
   <!--<div ng-view></div>-->
 
+  <div ng-controller="musicController">
+
+
+    <div ng-repeat="music in musicList">
+     {{music.name}}
+     {{music.singer}}
+   </div>
+  
+    {{test}}
+  </div>
+
     {{2+2}}
 
-  
+   
   <script src="node_modules/angular/angular.js"></script>
+  <script src="node_modules/jquery/dist/jquery.js"></script>
   <!--<script src="node_modules/angular-route/angular-route.js"></script>-->
   <script src="app.js"></script>
+  <script src="controllers/musicController.js"></script>
+  <script src="services/vkMusicService.js"></script>
   <!--<script src="view1/view1.js"></script>
   <script src="view2/view2.js"></script>-->
 </body>

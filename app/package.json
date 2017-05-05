@@ -1,19 +1,15 @@
 {
-  "name": "matureapp",
+  "name": "maturevk",
   "version": "1.0.0",
-  "description": "Test descp",
+  "description": "mature vk clien",
   "main": "app.js",
-  "dependencies": {
-    "angular": "^1.6.4"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "run"
   },
-  "repository": {
-    "type": "git",
-    "url": "MatureAPp"
+  "dependencies": {
+    "angular": "1.6.4",
+    "jquery": "3.2.1"
   },
-  "author": "KateN",
-  "license": "MIT"
+  "author": "KateKate",
+  "license": "ISC"
 }
