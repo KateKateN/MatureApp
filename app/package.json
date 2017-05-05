@@ -1,0 +1,19 @@
+{
+  "name": "matureapp",
+  "version": "1.0.0",
+  "description": "Test descp",
+  "main": "app.js",
+  "dependencies": {
+    "angular": "^1.6.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "MatureAPp"
+  },
+  "author": "KateN",
+  "license": "MIT"
+}
