@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="mainModule">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+</head>
+<body class="bg" ng-controller="loginController">
+<div class="login-form-wrapper">
+	<form class="login-form">
+		<input type="text" name="user-name" placeholder="&#xf007; &nbsp; Username" class="user-input wow fadeInDown" data-wow-delay="0.4s">
+		<input type="password" name="user-psw" placeholder="&#xf023; &nbsp; Password" class="user-input wow fadeInDown" data-wow-delay="0.4s"> 
+		<button type="submit" value="Submit" class="log-in wow fadeInUp" data-wow-delay="0.4s">log in</button>
+		<div class="lost-psw wow fadeInUp" data-wow-delay="0.4s"><a href="#">Lost your password?</a></div>  
+	</form>
+</div>
+	  <script src="node_modules/angular/angular.js"></script>
+	  <script src="node_modules/jquery/dist/jquery.js"></script>
+	  <!--<script src="node_modules/angular-route/angular-route.js"></script>-->
+	  <script src="app.js"></script>
+
+	<script src="main.js"></script>
+
+	<script src="controllers/loginController.js"></script>
+
+	<script src="services/LoginService.js"></script>
+	<script src="services/vkLoginDataService.js"></script>
+
+	<script src="wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+
+</body>
+</html>

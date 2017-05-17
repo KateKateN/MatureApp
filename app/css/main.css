@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600,700');
+.bg{
+	background-attachment: fixed;
+	background-repeat: no-repeat; 
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.login-form-wrapper{
+	width: 100%;
+ 	height: 40%;
+  	position: absolute;
+  	// overflow: auto;
+ 	margin: auto;
+	color: #fff;
+
+  	top: 0; 
+  	left: 0;
+  	bottom: 0;
+  	right: 0;
+}
+.login-form{
+	width: 300px;
+ 	height: 100%;
+	margin: auto;
+
+	display: flex;
+	flex-direction: column;
+}
+input::placeholder {
+  color: #fff;
+  text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.user-input{
+	outline: none;
+	margin-bottom: 15px;
+	padding: 17px 20px;
+	border: none;
+	border-radius: 25px;
+
+	background-color: rgba(225, 225, 225, 0.2);
+	color: #fff;
+	font-family: 'Raleway', FontAwesome,'Arial';
+	font-size: 14px;
+}
+.user-input:hover{
+	background-color: rgba(225, 225, 225, 0.3);
+	transition: 0.3s;
+}
+.user-input:focus{
+	background-color: rgba(225, 225, 225, 0.3);
+}
+.log-in{
+	outline: none;
+	border: none;
+	padding: 14px 0;
+	margin-bottom: 25px;
+	border-radius: 25px; 
+
+	background-color: #ff3366;  
+	color: #fff;
+	
+	font-family: 'Raleway';
+	font-size: 15px;
+	text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.4);
+	text-transform: capitalize;
+}
+.log-in:hover{
+	cursor: pointer;
+	background-color: #eb184d;
+	transition: 0.4s;
+}
+.lost-psw{
+	text-align: center;
+}
+.lost-psw a{
+	font-family: 'Raleway';
+	font-size: 13px;
+	color: rgba(225, 225, 225, 0.8);
+	text-decoration: none;
+	text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.4);
+}
+.lost-psw a:hover{
+	cursor: pointer;
+	color: #fff;
+	transition: 0.4s;
+}
+
+@media only screen and (max-width: 1024px){ 
+	.login-form{
+		width: 50%;
+	}
+}
+
+@media only screen and (max-width: 800px){ 
+	.login-form{
+		width: 80%;
+	}
+}

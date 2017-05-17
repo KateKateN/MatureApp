@@ -1,0 +1,15 @@
+{
+  "name": "maturevk",
+  "version": "1.0.0",
+  "description": "mature vk clien",
+  "main": "app.js",
+  "scripts": {
+    "test": "run"
+  },
+  "dependencies": {
+    "angular": "1.6.4",
+    "jquery": "3.2.1"
+  },
+  "author": "KateKate",
+  "license": "ISC"
+}
